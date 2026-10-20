@@ -19,7 +19,7 @@ app.get('/users', (req, res) => {
     res.send(html);
 });
 
-// Base Route (/api/users)
+// Base Route (/api/users) -- Frontend will use this route to get all users and also to create a new user
 app.route("/api/users")
     .get((req, res) => {
         res.json(users); 
@@ -33,7 +33,7 @@ app.route("/api/users")
     });
 
 // ID-specific Routes (/api/users/:id)
-app.route("/api/users/:id")
+app.route("/api/users/:id") // :id -> dynamic parameter
     .get((req, res) => {
         const id = Number(req.params.id);
         const user = users.find(user => user.id === id);

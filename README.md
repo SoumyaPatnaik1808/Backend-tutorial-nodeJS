@@ -1,3 +1,5 @@
+![Node JS logo](./Images/Node.js_logo.svg)
+
 # Backend Tutorial - Node.js a
 
 Welcome to the **Backend Tutorial - Node.js** repository! This project documents my step-by-step learning journey in Node.js backend development 
