@@ -9,8 +9,8 @@
 - Works on BSON format 
 - Best for Node applications 
 
-show dbs = shows all databases 
-use database_name = you will be inside that DB
-show collections = shows all the collections
-db.db_name.find({}) = finds a particular parameter 
-db.db_name.insert({}) = inserts a particular parameter 
+<p>show dbs = shows all databases </p>
+<p>use database_name = you will be inside that DB </p>
+<p>show collections = shows all the collections </p>
+<p>db.db_name.find({}) = finds a particular parameter</p>
+<p>db.db_name.insert({}) = inserts a particular parameter</p> 
