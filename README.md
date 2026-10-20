@@ -1,4 +1,7 @@
-![Node JS logo](./Images/Node.js_logo.svg)
+<p align="center">
+  <img src="Images/Node.js_logo.svg" alt="Logo" width="400">
+</p>
+
 
 # Backend Tutorial - Node.js a
 
