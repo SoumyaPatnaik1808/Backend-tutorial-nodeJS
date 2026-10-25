@@ -35,7 +35,9 @@ if(!users.length) {
             return res.status(201).json({ status: "Success", id: users.length }); //here status code is 201 which means successfully created the data
         });
 
-        if(!body.first_name || !body.last_name || !body.email) {
+        if(!body.first_name || 
+           !body.last_name || 
+           !body.email) {
             return res.status(400).json({ status: "Failed", message: "Please provide all required fields" }); //here status code is 400 which means bad request
         }
     });
